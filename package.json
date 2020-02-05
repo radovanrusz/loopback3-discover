@@ -1,0 +1,14 @@
+{
+  "name": "loopback3-discover",
+  "version": "1.0.17",
+  "description": "Discover model for loopback v.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "radovan.rusz@hotmail.cz",
+  "license": "ISC",
+  "bin": {
+    "discover-model": "./index.js"
+  }
+}
