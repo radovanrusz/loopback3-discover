@@ -10,5 +10,8 @@
   "license": "ISC",
   "bin": {
     "discover-model": "./index.js"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1"
   }
 }
