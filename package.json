@@ -1,6 +1,6 @@
 {
   "name": "loopback3-discover",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "Discover model for loopback v.3",
   "main": "index.js",
   "scripts": {
