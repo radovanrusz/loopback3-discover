@@ -10,6 +10,14 @@
 
 > Discover model for loopback v.3
 
+## Before install
+
+```sh
+npm install -g loopback-cli
+lb
+lb datasource
+```
+
 ## Install
 
 ```sh
