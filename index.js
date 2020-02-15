@@ -40,11 +40,11 @@ rl.question("Datasource name? ", function(DATASOURCE_NAME) {
           relations: true,
           views: true
         };
-        const tableSchemas = await db.discoverSchemas(table.toUpperCase(), options);
+        const tableSchemas = await db.discoverSchemas(table, options);
         await mkdirp('common/models');
         await writeFile(
           'common/models/'+table.toLowerCase()+'.json',
-          JSON.stringify(tableSchemas[schema.toUpperCase()+'.'+table.toUpperCase()], null, 2)
+          JSON.stringify(tableSchemas[schema+'.'+table], null, 2)
         );
 
         const configJson = await readFile('server/model-config.json', 'utf-8');
