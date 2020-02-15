@@ -16,6 +16,8 @@
 npm install -g loopback-cli
 lb
 lb datasource
+
+Be careful when entering schema and table names. The databases are case sensitive
 ```
 
 ## Install
@@ -28,12 +30,6 @@ npm i loopback3-discover --save-dev
 
 ```sh
 npx discover-model
-```
-
-## Run tests
-
-```sh
-npm run test
 ```
 
 ## Author
